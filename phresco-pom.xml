@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0">
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.photon.phresco</groupId>
     <artifactId>abcd</artifactId>
@@ -7,7 +7,8 @@
         <connection>https://github.com/syed-ah/demo.git</connection>
         <developerConnection>scm:git:https://github.com/syed-ah/demo.git</developerConnection>
         <url>scm:git:https://github.com/syed-ah/demo.git</url>
-    </scm>
+      <tag>demo-branch</tag>
+  </scm>
     <name>abcd</name>
     <packaging>phresco</packaging>
     <build>
@@ -86,8 +87,8 @@
                             <goal>unpack</goal>
                         </goals>
                         <configuration>
-                            <markersDirectory xmlns="" xmlns:ns2="http://maven.apache.org/POM/4.0.0">do_not_checkin/markers</markersDirectory>
-                            <artifactItems xmlns="" xmlns:ns2="http://maven.apache.org/POM/4.0.0">
+                            <markersDirectory xmlns:ns2="http://maven.apache.org/POM/4.0.0">do_not_checkin/markers</markersDirectory>
+                            <artifactItems xmlns:ns2="http://maven.apache.org/POM/4.0.0">
                                 <artifactItem>
                                     <groupId>jslibraries.files</groupId>
                                     <artifactId>jslib_yui</artifactId>
@@ -191,7 +192,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <skip xmlns="" xmlns:ns2="http://maven.apache.org/POM/4.0.0">true</skip>
+                    <skip xmlns:ns2="http://maven.apache.org/POM/4.0.0">true</skip>
                 </configuration>
             </plugin>
 			<plugin>
