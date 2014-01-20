@@ -7,7 +7,7 @@
         <connection>https://github.com/syed-ah/demo.git</connection>
         <developerConnection>scm:git:https://github.com/syed-ah/demo.git</developerConnection>
         <url>scm:git:https://github.com/syed-ah/demo.git</url>
-      <tag>demo-branch</tag>
+      <tag>HEAD</tag>
   </scm>
     <name>abcd</name>
     <packaging>phresco</packaging>
